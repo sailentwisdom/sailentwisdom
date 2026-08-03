@@ -1,17 +1,95 @@
-body {
-  background: #111;
-  color: white;
-  text-align: center;
-  font-family: Arial, sans-serif;
-  padding: 50px;
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
 }
 
-h1 {
-  font-size: 45px;
-  color: #ffd700;
+body{
+background:#0f0f0f;
+color:white;
 }
 
-p {
-  font-size: 22px;
-  line-height: 1.6;
+header{
+text-align:center;
+padding:30px 15px;
+background:#151515;
+border-bottom:2px solid #d4af37;
+}
+
+header h1{
+font-size:38px;
+color:#d4af37;
+}
+
+header p{
+color:#ccc;
+margin-top:10px;
+}
+
+
+.hero{
+text-align:center;
+padding:60px 20px;
+}
+
+.hero h2{
+font-size:30px;
+margin-bottom:15px;
+}
+
+
+.hero p{
+color:#ddd;
+font-size:18px;
+}
+
+
+.categories,
+.quotes{
+padding:30px 20px;
+}
+
+
+.categories h2,
+.quotes h2{
+text-align:center;
+color:#d4af37;
+margin-bottom:25px;
+}
+
+
+.box{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(130px,1fr));
+gap:15px;
+}
+
+
+.box div{
+background:#1c1c1c;
+padding:20px;
+text-align:center;
+border-radius:12px;
+border:1px solid #333;
+}
+
+
+.quote{
+background:#1c1c1c;
+padding:25px;
+margin:15px 0;
+border-left:4px solid #d4af37;
+border-radius:10px;
+font-size:18px;
+line-height:1.6;
+}
+
+
+footer{
+text-align:center;
+padding:25px;
+background:#151515;
+color:#aaa;
+margin-top:40px;
 }
