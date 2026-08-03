@@ -1,1 +1,17 @@
+body {
+  background: #111;
+  color: white;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 50px;
+}
 
+h1 {
+  font-size: 45px;
+  color: #ffd700;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.6;
+}
