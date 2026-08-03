@@ -20,3 +20,23 @@ else{
 });
 
 });
+function likeQuote(btn){
+
+btn.innerHTML="❤️ Liked";
+
+}
+
+
+function shareQuote(btn){
+
+let text = btn.parentElement.innerText;
+
+navigator.share({
+
+title:"SilentWisdom",
+
+text:text
+
+});
+
+}
